@@ -3,7 +3,7 @@
 ## About
 
 This is a "simple", but complete example of how to utilize WebRTC to do peer to
-peer voice and video chatting between two or more people.
+peer voice and video calling between two or more people.
 
 Original author: @shastox (great at tech; not so great at JS). Rapidly refactored by @jmsherry
 
