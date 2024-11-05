@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>WebRTC Demo</title>
+    <!-- This adapter.js file de-prefixes the webkit* and moz* prefixed RTC
+             methods. When RTC becomes a more solid standard, this adapter should no
+             longer be necessary. -->
+    <!-- <script src="https://webrtc.googlecode.com/svn/trunk/samples/js/base/adapter.js"></script> -->
+
+
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js" defer></script>
+    <script src="/scripts/main.js" defer></script>
+</head>
+
+<body>
+    <!-- 
+        the <video> and <audio> tags are all added and removed dynamically
+        in 'onAddStream', 'setup_local_media', and 'removePeer'/'disconnect'
+        -->
+    <div id="mount"></div>
+</body>
+
+</html>
